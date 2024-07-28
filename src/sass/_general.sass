@@ -1,0 +1,362 @@
+header
+  position: relative
+nav
+  height: 50px
+  background-color: #464545
+  position: fixed
+  width: 100%
+  top: 0
+  z-index: 999
+
+.menu
+  display: flex
+  justify-content: space-between
+  padding: 13px 70px 
+  margin: 0
+  list-style-type: none
+
+.hamburger
+  display: none
+  
+.menu .menu_link
+  color: #ffffff
+  font-size: 15px
+  font-weight: 300
+  text-decoration: none
+
+.menu .menu_item
+  border-right: 2px dotted #000000
+  padding-right: 28px
+  &:last-child
+    border-right: none
+
+.subheader
+  height: 84px
+  background-color: rgba(80, 79, 79, 0.6)
+  position: absolute
+  width: 100%
+  top: 50px
+
+.subheader .subheader_logo
+  display: block
+  width: 65%
+
+.subheader .subheader_official
+  margin-top: 6px
+  opacity: 0.5
+  color: #ffffff
+  font-size: 13px
+  font-weight: 400
+
+.subheader .subheader_call
+  color: #ffffff
+  font-size: 12px
+  font-weight: 300
+  margin-top: 19px
+
+.subheader .subheader_phone
+  margin-top: 8px
+  color: #ffffff
+  font-size: 22px
+  font-weight: 400
+  text-transform: uppercase
+  text-align: right
+  line-height: 12px
+
+.subheader .subheader_btn
+  margin-top: 19px
+  width: 172px
+  height: 46px
+  box-shadow: inset 0 -3px 0 rgba(0,0,0, 0.12)
+  border: none
+  border-radius: 4px
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+  color: #ffffff
+  font-size: 14px
+  font-weight: 400
+  text-transform: uppercase
+  transition: background-color 4s 
+
+.subheader .subheader_btn:active 
+  background-image: none
+  background-color: $main-color
+  transition: none
+
+.promo .promo_header
+  color: #d59330
+  font-weight: 700
+  text-transform: uppercase
+  font-size:60px
+  line-height: 60px
+  margin: 0
+  text-align: center
+  text-shadow:1px 1px 0 white, 2px 2px 0 white, 3px 3px 0 white, 4px 4px 0 white, 5px 5px 0 #d59330, 6px 6px 0 #d59330
+
+.promo .promo_subheader
+  color: #d59330
+  font-weight: 700
+  text-transform: uppercase
+  font-size:36px
+  line-height: 36px
+  margin: 0
+  margin-top: 22px
+  text-align: center
+  text-shadow:1px 1px 0 white,  2px 2px 0 #d59330, 
+    
+.promo .promo_descr
+  color: #ffffff
+  font-size:18px
+  font-weight: 400
+  line-height: 24px
+  text-align: center
+  margin-top: 23px  
+  display: none
+
+.promo .promo_btn
+  display: block
+  margin: 118px auto 0 auto
+  width: 259px
+  height: 63px
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+  border: none
+  border-radius: 4px
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+  color: #ffffff
+  font-size: 18px 
+  font-weight: 400  
+  text-transform: uppercase
+  transition: background-color 4s 
+
+.promo .promo_btn:active
+  background-image: none
+  background-color: $main-color
+  transition: none
+
+.label
+  margin: 0 auto
+  height: 24px
+  width: 112px
+  padding: 5px 12px
+  background-color: #fff
+  color: #070707
+  font-size: 11px
+  font-weight: 300
+  text-transform: uppercase
+  text-align: center
+
+.title
+  margin-bottom: 0
+  margin-top: 38px
+  color: #222222
+  font-size: 38px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+
+.advantages 
+  .row 
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    min-height: 550px
+    padding: 35px 0 75px 0px
+    align-items: flex-end
+
+.advantage-item .icon img
+  width: 66% !important
+
+.advantage-item 
+  flex: 1
+  margin: 0 10px
+  max-width: 100%
+  text-align: center
+
+header 
+  .title 
+    font-size: 1.5em
+    margin: 15px 0
+
+.description 
+  font-size: 1em
+  margin: 10px 0
+
+.services 
+  min-height: 1280px
+  padding: 40px 0 40px 0
+
+  .row 
+    margin-top: 32px
+  
+  .service 
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+    height: auto
+    margin: 0 auto
+    margin-bottom: 19px
+    padding: 0 20px
+    text-align: left
+
+    img 
+      max-width: 100%
+      height: auto
+      display: block
+      margin: 0 auto
+      background: center center/cover no-repeat
+      margin-bottom: 20px
+      border-radius: 7px
+    
+
+    .service-title 
+      font-size: 24px
+      text-align: left
+      padding-bottom: 15px
+  
+    .service-content 
+      min-height: 150px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      height: 100%
+
+
+    .price 
+      display: block
+      position: relative
+      text-align: left
+
+.statistics
+  background-color: #ffffff
+  padding-top: 80px
+
+.statistics header
+  background-color: #333
+  color: #fff
+  padding: 20px
+  text-align: center
+
+.statistics_content
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin: 20px
+
+.statistics_icons
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  margin-left: 20px
+
+.statistics_icon
+  display: flex
+  align-items: center
+  margin-bottom: 75px
+  margin-right: 120px
+
+.statistics_icon img 
+  width: 50px
+  height: 50px
+  margin-right: 10px
+
+.statistics_icon p 
+  margin: 0
+  font-size: 23px
+
+.statistics_image
+  width: 35%
+  margin-bottom: 20px
+    
+footer 
+  background-color: #242424
+  padding: 20px
+  text-align: center
+  font-size: 14px
+  color: #f1f1f1
+  
+  a 
+    color: #ffffff
+    text-decoration: none 
+
+  .container_4 
+    position: relative
+    &::before
+      content: ""
+      position: absolute
+      width: 500px
+      height: 7px
+      background-color: white
+      border-radius: 50%
+      top: -20px
+      left: 50%
+      transform: translateX(-50%)
+
+    .circle-container 
+      position: absolute
+      left: 0
+      top: 50%
+      transform: translateY(-35%)
+      display: flex
+      align-items: center
+    
+    .circle 
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 29px
+      height: 29px
+      background-color: white
+      border-radius: 50%
+      margin-right: 10px 
+      
+    .first_center-icon 
+      position: absolute
+      right: 180px
+      top: 50%
+      transform: translateY(-50%)
+      img
+        width: 65px
+     
+    .second_center-icon 
+      position: absolute
+      right: 110px
+      top: 50%
+      transform: translateY(-50%)
+      img
+        width: 62px
+
+    .third_center-icon 
+      position: absolute
+      right: 40px
+      top: 50%
+      transform: translateY(-50%)
+      img
+        width: 65px
+
+    .bottom-text
+      margin-top: 20px
+      a
+        margin-right: 7px
+
+      h3
+        font-size: 24px
+        font-weight: bold
+        color: white
+
+      .gray-text a
+        font-size: 14px
+        color: #928e8e
+        margin-right: 7px
+        
+.gray-text:not(:last-child) a
+  margin-right: 7px
+
+.copyright
+  font-size: 14px
+  color: #928e8e
+  margin-left: 7px
+  margin-right: 7px
+  text-decoration: none
+
+.xs-visible 
+  display: none

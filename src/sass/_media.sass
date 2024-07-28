@@ -1,0 +1,232 @@
+@media (max-width: 1200px)
+    .menu
+        .menu_item
+            padding-right: 20px
+        .menu_link
+            font-size: 13px
+    .promo
+        padding: 150px 0 10px 0
+        .promo_header
+            font-size: 50px
+    .advantages
+        .advantage-item
+            .title
+                font-size: 25px
+                margin-top: 0px
+        .row
+            padding: 35px 0 10px 0px
+    .services
+        padding: 40px 0 10px 0
+    .subheader
+        .subheader_logo
+            width: 100%
+        .subheader_call
+            margin-right: 70px
+@media (max-width: 991px)
+    .menu
+        .menu_item
+            padding-right: 10px
+        .menu_link
+            font-size: 12px
+    .subheader
+        .subheader_logo
+            width: 100%
+        .subheader_official
+            font-size: 11px
+        .subheader_call
+            margin-right: 10px
+        .subheader_btn
+            margin-top: 21px
+            height: 40px
+            width: 100%
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 30px
+    .advantages
+        .row
+            padding: 0  
+        .advantage-item
+            .icon
+                &.icon-affordable img
+                    width: 45px
+                &.icon-quality img
+                    width: 43px
+                    margin-top: 10px
+                &.icon-consultation img
+                    width: 45px
+    .container_4::before
+        width: 400px !important
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &.menu_active
+            left: 0
+        .menu_item
+            padding-right: 0
+            border: none
+            margin: 10px
+        .menu_link
+            font-size: 20px
+    .container_4::before
+        width: 350px !important
+    .statistics_icon 
+        margin-bottom: 50px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &.hamburger_active
+            span
+                margin-bottom: -2px 
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        .subheader_phone
+            display: block
+            margin-top: 10px
+            color: #ffffff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        .subheader_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        .promo_header
+            line-height: 45px
+    .first_center-icon
+        display: none
+    .second_center-icon
+        display: none
+    .third_center-icon
+        display: none
+    .circle-container
+        display: none !important
+@media (max-width: 575px)
+    nav
+        height: 30px
+    .statistics_icon 
+        margin-bottom: 30px
+    .subheader
+        height: 60px
+        top: 30px
+        .subheader_official
+            display: none
+        .subheader_phone
+            font-size: 12px
+            text-transform: uppercase
+            margin-top: 11px
+        .subheader_btn
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin-top: 6px
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        .promo_descr
+            display: none
+        .promo_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+            text-shadow:1px 1px 0 white, 2px 2px 0 white, 3px 3px 0 #3f3f3f, 4px 4px 0 #3f3f3f
+        .promo_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+            text-shadow:0.5px 0.5px 0 white,  1.5px 1.5px 0 #3f3f3f,
+        .promo_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .menu
+        width: 85%
+        .menu_item
+            width: 100% !important
+            text-align: center 
+            padding: 5px 0
+        .menu_link
+            display: block !important
+    .service
+        .service-title
+            font-size: 25px
+    .container_4::before
+        width: 200px !important
+    .statistics 
+        header
+            h2 
+                font-size: 1.5rem
+@media (max-width: 410px)
+    .subheader
+        .subheader_logo
+            margin-top: 10px 
+@media (min-width: 769px)
+    .statistics_content 
+        flex-direction: row
+        justify-content: center
+        align-items: center
+    .statistics_icons 
+        margin-left: 0
+    .statistics_image
+        margin-left: 20px
+        margin-right: 20px
+@media (max-width: 768px)
+    .statistics_image
+        order: -1
+        width: 80%
+        max-width: 400px
+@media screen and (min-width: 280px) and (max-width: 350px)
+    .promo
+        .promo_header
+            margin-left: 15px
+        .promo_subheader
+            margin-left: 15px
+@media screen and (min-width: 350px) and (max-width: 450px)
+    .promo
+        .promo_header
+            margin-left: 25px
+        .promo_subheader
+            margin-left: 25px
+@media screen and (min-width: 450px) and (max-width: 550px)
+    .promo
+        .promo_header
+            margin-left: 25px
+        .promo_subheader
+            margin-left: 25px
